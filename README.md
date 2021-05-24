@@ -31,3 +31,5 @@ Go to your model folder where “model.json” exists and run:
 
     http-server -c1 --cors .
     
+DONE!
+    
