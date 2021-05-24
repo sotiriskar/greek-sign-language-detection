@@ -1,1 +1,0 @@
-# Greek-Sign-Language-Detection
