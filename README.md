@@ -9,6 +9,7 @@
 [![](https://img.shields.io/badge/NumPy-1.21.1-lightblue)](https://numpy.org/)
 [![](https://img.shields.io/badge/Pandas-1.3.2-darkblue)](https://pandas.pydata.org/)
 [![](https://img.shields.io/badge/OpenCV-4.5.3-brightgreen)](https://opencv.org/)
+[![](https://img.shields.io/badge/react-17.0.0-9cf)](https://reactjs.org/)
 
 Install all the required packages:
 
