@@ -1,7 +1,7 @@
 # Greek Sign Language Detection
 
 <p align="center">
-   <img src="![1](https://user-images.githubusercontent.com/36128807/145409483-9e276455-b2a9-48ba-bdb7-e86ff591525e.jpeg)" >
+   <img src="https://user-images.githubusercontent.com/36128807/145409483-9e276455-b2a9-48ba-bdb7-e86ff591525e.jpeg" >
 </p>
 
 Install all the required packages:
