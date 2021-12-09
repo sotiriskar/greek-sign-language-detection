@@ -4,6 +4,12 @@
    <img src="https://user-images.githubusercontent.com/36128807/145409483-9e276455-b2a9-48ba-bdb7-e86ff591525e.jpeg" >
 </p>
 
+[![](https://img.shields.io/badge/Python-3.8-blue)](https://www.python.org/)
+[![](https://img.shields.io/badge/Tensorflow-2.5.0-orange)](https://www.tensorflow.org/)
+[![](https://img.shields.io/badge/NumPy-1.21.1-lightblue)](https://numpy.org/)
+[![](https://img.shields.io/badge/Pandas-1.3.2-darkblue)](https://pandas.pydata.org/)
+[![](https://img.shields.io/badge/OpenCV-4.5.3-brightgreen)](https://opencv.org/)
+
 Install all the required packages:
 
     npm install
