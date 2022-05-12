@@ -1,0 +1,116 @@
+item { 
+	name:'ΧΑΙΡΟΜΑΙ'
+	id:1
+}
+item { 
+	name:'ΩΡΑ'
+	id:2
+}
+item { 
+	name:'ΑΓΚΑΛΙΑ'
+	id:3
+}
+item { 
+	name:'ΑΓΩΝΑΣ'
+	id:4
+}
+item { 
+	name:'ΑΙΜΑ'
+	id:5
+}
+item { 
+	name:'ΑΝΑΡΧΙΚΟΣ'
+	id:6
+}
+item { 
+	name:'ΑΝΤΡΑΣ'
+	id:7
+}
+item { 
+	name:'ΒΑΖΩ'
+	id:8
+}
+item { 
+	name:'ΒΑΡΟΣ'
+	id:9
+}
+item { 
+	name:'ΒΟΗΘΑΩ'
+	id:10
+}
+item { 
+	name:'ΒΡΑΔΥ'
+	id:11
+}
+item { 
+	name:'ΓΕΙΑ'
+	id:12
+}
+item { 
+	name:'ΓΡΗΓΟΡΑ'
+	id:13
+}
+item { 
+	name:'ΔΕΥΤΕΡΟ'
+	id:14
+}
+item { 
+	name:'ΕΤΟΙΜΟΣ'
+	id:16
+}
+item { 
+	name:'ΕΥΧΑΡΙΣΤΩ'
+	id:17
+}
+item { 
+	name:'ΚΑΛΑ'
+	id:18
+}
+item { 
+	name:'ΛΑΤΡΕΥΩ'
+	id:19
+}
+item { 
+	name:'ΜΑΖΙ'
+	id:20
+}
+item { 
+	name:'ΜΑΚΑΡΙ'
+	id:21
+}
+item { 
+	name:'ΜΕΛΕΤΩ'
+	id:22
+}
+item { 
+	name:'ΜΕΝΩ'
+	id:23
+}
+item { 
+	name:'ΜΠΟΡΩ'
+	id:24
+}
+item { 
+	name:'ΝΑΙ'
+	id:25
+}
+item { 
+	name:'ΟΧΙ'
+	id:26
+}
+item { 
+	name:'ΠΑΙΔΙ'
+	id:27
+}
+item { 
+	name:'ΠΑΡΑΚΑΛΩ'
+	id:28
+}
+item { 
+	name:'ΠΡΩΤΑ'
+	id:29
+}
+item { 
+	name:'ΣΚΕΦΤΟΜΑΙ'
+	id:30
+}
