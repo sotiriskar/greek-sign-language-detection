@@ -1,28 +1,24 @@
 // Import dependencies
 import React, { useRef, useState, useEffect } from "react";
+import { nextFrame } from "@tensorflow/tfjs";
 import * as tf from "@tensorflow/tfjs";
+import {drawRect} from "./utilities";
 import Webcam from "react-webcam";
 import "./App.css";
-import { nextFrame } from "@tensorflow/tfjs";
-import {drawRect} from "./utilities"; 
 
 function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
-  // Main function
-  const runCoco = async () => {
-    // It's possible to load the model locally or from a repo
-    // You can choose whatever IP and PORT you want in the "http://127.0.0.1:8080/model.json" just set it before in your https server
-    //const net = await tf.loadGraphModel("http://127.0.0.1:8080/model.json")
+  // Main
+  const coco = async () => {
     const net = await tf.loadGraphModel("https://raw.githubusercontent.com/SotirisKar/Greek-Sign-Language-Detection/main/model/model.json")
-    
     setInterval(() => {
       detect(net);
     }, 16.7);
   };
 
-  const detect = async (net) => {
+  const det = async (net) => {
     if (
       typeof webcamRef.current !== "undefined" &&
       webcamRef.current !== null &&
@@ -47,26 +43,24 @@ function App() {
       const casted = resized.cast('int32')
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
-      console.log(await obj[6].array())
 
       const boxes = await obj[6].array()
       const classes = await obj[3].array() //3
       const scores = await obj[4].array() //4
+
       // Draw
       const ctx = canvasRef.current.getContext("2d");
 
-      requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.65, videoWidth, videoHeight, ctx)}); 
-
+      requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.5, videoWidth, videoHeight, ctx)}); 
       tf.dispose(img)
       tf.dispose(resized)
       tf.dispose(casted)
       tf.dispose(expanded)
       tf.dispose(obj)
-
     }
   };
 
-  useEffect(()=>{runCoco()},[]);
+  useEffect(()=>{coco()},[]);
 
   return (
     <div className="App">
